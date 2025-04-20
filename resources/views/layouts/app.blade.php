@@ -20,9 +20,7 @@
 
     <!-- Scripts -->
 
-    body{
-        font
-    }
+    
 
 </head>
 <body dir="rtl">

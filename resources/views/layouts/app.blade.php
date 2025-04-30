@@ -25,20 +25,6 @@
 </head>
 <body dir="rtl">
 
-
-    <header>
-        <nav class="navbar" style="background-color: rgb(90,90,90)">
-            <div class="container-fluid">
-                <ul class="list-inline">
-                    <li class="list-inline-item pe-2"><a href="{{route('home')}}" class="text-decoration-none text-white">الرئيسية</a></li>
-                    <li class="list-inline-item pe-2"><a href="{{route('products')}}" class="text-decoration-none text-white">المنتجات</a></li>
-                    <li class="list-inline-item ps-2"><a href="{{route('callus')}}" class="text-decoration-none text-white">اتصل بنا</a></li>
-                    <li class="list-inline-item"><a href="{{route('about')}}" class="text-decoration-none text-white">حول</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <main>
         @yield('content')
     </main>
